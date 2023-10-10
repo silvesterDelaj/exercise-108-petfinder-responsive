@@ -1,0 +1,194 @@
+.clearfix{
+    display: flow-root;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 960px){
+
+    .banner {
+        background-color: var(--purple);
+        font-size: 0.7rem;
+        color: white;
+        text-align: center;
+    }
+    div.banner>a {
+        color: white;
+        font-weight: 300;
+    }
+
+    menu.main-menu {
+        display: none;
+    }
+
+    h1 {
+        background-color: var(--purple);
+        font-size: 2rem;
+        padding: 0.2em;
+        display: inline;
+    }
+
+    p.subtitle {
+        font-size: 0.8em;
+        padding: 0.7em 0;
+    }
+
+    img[alt="others"] {
+        display: none;
+    }
+
+    div.relative.right {
+        display: none;
+    }
+
+    div>p {
+        font-size: 0.8em;
+    }
+    
+    img[alt="twins"] {
+        display: block;
+        width: 100vw;
+        margin-top: 2rem;
+    }
+
+    .terms >p {
+        display: block;
+        width: 90vw;
+        text-align: center justify;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 0.6em;
+        padding: 1rem 2rem
+    }
+
+    button {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    header {
+        position: static;
+    }
+
+    .banner {
+        background-color: var(--purple);
+        font-size: 0.5em;
+        color: white;
+        text-align: center;
+    }
+    div.banner>a {
+        color: white;
+        font-weight: 300;
+    }
+
+    menu {
+        display: none;
+    }
+
+    h1 {
+        background-color: var(--purple);
+        font-size: 1.5rem;
+        padding: 0.2em;
+        display: inline;
+    }
+
+    p.subtitle {
+        font-size: 0.6em;
+        padding: 0.7em 0;
+    }
+
+    .hero, .hero-container {
+        height: 100vh;
+    }
+
+    .hero {
+        background-position: left;
+    }
+
+    .hero-container {
+        padding-top: 120px;
+    }
+
+    img[alt="others"] {
+        display: none;
+    }
+    img[alt="shelters"] {
+        display: none;
+    }
+
+    img[alt="darius"] {
+        display: block;
+        width: 100vw;
+    }
+
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
+    }
+
+    div.relative.right {
+        display: none;
+    }
+
+    div>p {
+        width: 100vw;
+        font-size: 0.8rem;
+    }
+
+    img[alt="twins"] {
+        display: block;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    div.terms p:nth-child(2) {
+        display: none;
+    }
+
+    div.terms p:last-child {
+        display: none;
+    }
+
+    .terms >p{
+        overflow: hidden;
+        width: 100vw;
+        height: 60vh;
+        background-color: var(--purple);
+        color: white;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+    .chat>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .chat {
+        padding: 0.3rem;
+        border: 3px solid white;
+    }
+
+    
+}
